@@ -313,6 +313,7 @@
 	var car=document.getElementById("car");
 	var addcar=document.getElementById("addcar");
 	var envelop=document.getElementById("envelop");
+	envelop.style.height=document.body.clientHeight+"px";
 	var logo=document.getElementById("logo");
 	addcar.onclick=function(){
 		car.style.display="block";
@@ -340,14 +341,10 @@
 	img1.onmouseover=function(){
 		slider.style.display="block";
 		img2.style.display="block";
-		// box.style.overflow="visible";
-		// box.style.zIndex="200";
 	}
 	img1.onmouseout=function(){
 		slider.style.display="none";
 		img2.style.display="none";
-		// box.style.overflow="hidden";
-		// box.style.zIndex="80";
 	}
 	img1.onmousemove=function(ev){
 		var ev=ev || window.event;
