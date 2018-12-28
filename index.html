@@ -78,8 +78,7 @@
 	</div>
     </div>
 </div>
-<div style="width:1180px;margin:0 auto;">
-	<div style="width:1180px;margin:0 auto;">
+	<div style=" width:1180px;margin:0 auto;">
 		<div class="commodity">
 			<ul>
 				<li style="padding:10px 37px 10px 37px;background-color: #ff4d04;color:white;">全部商品分类</li>
@@ -95,8 +94,10 @@
 		</div>
 	</div>
 	<!-- logole结束 -->
+	<div style="width:100%;background-color: #f8f7f6;margin:0 auto;">
 	<div class="big">
 		<!-- 轮播开始 -->
+	<div style="width:1180px;margin:0 auto;">
 		<div class="lunbo">
 			<div calss="business">
 				<div class="zuo">
@@ -216,6 +217,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 		<!-- 轮播结束 -->
 		<!-- 底部开始 -->
 		<div class="dibu">
@@ -368,14 +370,12 @@
 	}
 	function roll(){				
 		var now=parseInt(getStyle(uul,"top"));
-		console.log(now);	
 		if(now==-377){
 			uul.style.top = '0px';
 		}
 		else{
 			var speed=-1;
 			uul.style.top=now+speed+"px";
-			console.log(now);
 		}
 	}
 	//显示钱数
